@@ -1,26 +1,37 @@
 body {
     background-color: azure;
 }
-.virsus {
-    border: brown 5px double;
+.top {
+    border: cadetblue 3px groove;
 }
 
 header h1 {
-    color: blueviolet;
-    font-size: 24px;
+    color: #30CAD3;
+    font-size: 34px;
     text-align: center;
 }
 
-.main p {
-    text-align: justify;
+.main {
+    border: lightblue 5px groove;
+    margin: auto;
 }
 
-.main {
-    border: crimson 20px dashed;
+.main p {
+    text-align: center;
+    padding: 5px;
+}
+
+.main img {
+    padding: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80%;
+    width: 50%;
 }
 
 footer {
-    border: black 5px solid;
-    background-color: darkgray;
+    border: darkslategrey 5px solid;
+    background-color: darkcyan;
     text-align: center;
 }
